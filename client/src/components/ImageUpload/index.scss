@@ -1,0 +1,32 @@
+.file-upload {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+}
+
+.file-upload__input {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 16px;
+  cursor: pointer;
+  
+  input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+}

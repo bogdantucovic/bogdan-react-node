@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer/> render 1`] = `
+<footer>
+  <WithStyles(AppBar)
+    color="inherit"
+    position="static"
+  >
+    <WithStyles(Toolbar)>
+      <WithStyles(Grid)
+        alignItems="center"
+        container={true}
+        justify="space-around"
+      >
+        <WithStyles(StyledLink)
+          href="https://www.linkedin.com/in/btucovic/"
+          rel="author"
+          target="_blank"
+        >
+          Linkedin
+        </WithStyles(StyledLink)>
+        <WithStyles(Typography)
+          variant="caption"
+        >
+          Developed by Bogdan Tucovic
+        </WithStyles(Typography)>
+        <WithStyles(StyledLink)
+          href="https://github.com/bogdantucovic"
+          rel="author"
+          target="_blank"
+        >
+          GitHub
+        </WithStyles(StyledLink)>
+      </WithStyles(Grid)>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+</footer>
+`;

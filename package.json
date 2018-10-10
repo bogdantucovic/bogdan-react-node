@@ -1,0 +1,96 @@
+{
+  "name": "bogdan-react-node",
+  "version": "1.0.0",
+  "description": "The sReact Node application",
+  "main": "index.js",
+  "scripts": {
+    "client:dev": "NODE_ENV=development webpack  --config webpack.config.dev.js",
+    "client:prod": "NODE_ENV=production webpack  --config webpack.config.prod.js",
+    "serve": "nodemon --use_strict index.js",
+    "migrate": "node migrate.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "classnames": "^2.2.5",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "history": "^4.7.2",
+    "i18next": "^11.3.2",
+    "i18next-browser-languagedetector": "^2.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-helmet": "^5.2.0",
+    "react-i18next": "^7.7.0",
+    "react-loadable": "^5.4.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1",
+    "validator": "^7.2.0"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "react",
+      "enzyme",
+      "jest-enzyme"
+    ],
+    "testRegex": "(/src/__tests__/.*|(\\.|/)(test|spec))\\.js?$",
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-dynamic-import-node": "^2.0.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.3.0",
+    "jest-enzyme": "^6.0.2",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^3.0.0"
+  },
+  "author": {
+    "name": "Bogdan Tucovic",
+    "email": "1bogdantucovic@gmail.com",
+    "url": "https://www.linkedin.com/in/btucovic/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogdantucovic/bogdan-react-node.git"
+  }
+}
