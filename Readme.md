@@ -36,4 +36,4 @@ Almost the whole content of the application is available only for registered use
 - update of the user interface immediately after executing the change on the database
 - notification
 
-<img width="400" src="https://github.com/bogdantucovic/bogdan-react-node/blob/master/Demo/demo.gif?raw=true">
+<img width="800" src="https://github.com/bogdantucovic/bogdan-react-node/blob/master/Demo/demo.gif?raw=true">
